@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>Discord Bot Site</title>
+  <title>Discord Bot</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
@@ -21,27 +21,53 @@
       text-decoration: none;
       font-weight: bold;
       border-radius: 8px;
+      transition: 0.2s;
     }
     a.button:hover {
       background: #4752c4;
+      transform: scale(1.05);
+    }
+    section {
+      margin-top: 40px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      font-size: 18px;
     }
   </style>
 </head>
 <body>
 
   <h1>🤖 Discord Bot</h1>
-  <p>Site başarıyla çalışıyor 🎉</p>
+  <p>Sunucunuzu daha eğlenceli ve güçlü yapan bot!</p>
 
-  <a class="button" href="#" target="_blank">➕ Sunucuya Ekle</a>
-  <a class="button" href="#" target="_blank">💬 Destek Sunucusu</a>
+  <a class="button" href="https://discord.com/oauth2/authorize?client_id=1467621876221214782&permissions=8&integration_type=0&scope=bot" target="_blank">
+    ➕ Sunucuya Ekle
+  </a>
 
-  <section style="margin-top:40px;">
+  <!-- Eğer varsa destek linkini buraya koy -->
+  <a class="button" href="#" target="_blank">
+    💬 Destek Sunucusu
+  </a>
+
+  <section>
     <h2>✨ Özellikler</h2>
-    <ul style="list-style:none; padding:0; font-size:18px;">
-      <li>✔️ Moderasyon Komutları</li>
-      <li>✔️ Eğlence Komutları</li>
-      <li>✔️ Kolay Kullanım</li>
-      <li>✔️ Sürekli Güncellenir</li>
+    <ul>
+      <li>✔️ Moderasyon komutları</li>
+      <li>✔️ Eğlence komutları</li>
+      <li>✔️ Oyun & mini sistemler</li>
+      <li>✔️ Kullanımı kolay</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📜 Örnek Komutlar</h2>
+    <ul>
+      <li><b>!yardım</b> — Komut listesini gösterir</li>
+      <li><b>!ping</b> — Botun pingini gösterir</li>
+      <li><b>!sunucu</b> — Sunucu bilgilerini gösterir</li>
+      <li><b>!ban</b> — Kullanıcıyı banlar</li>
     </ul>
   </section>
 
