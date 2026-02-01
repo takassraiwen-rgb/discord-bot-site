@@ -2,90 +2,48 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>Carl-bot - Discord Bot</title>
+  <title>Discord Bot Site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #5865F2, #23272A);
+      background: #23272A;
       color: white;
+      font-family: Arial, sans-serif;
       text-align: center;
+      padding: 50px;
     }
-    header {
-      padding: 60px 20px;
-    }
-    h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 18px;
-      opacity: 0.9;
-    }
-    .buttons {
-      margin-top: 30px;
-    }
-    .buttons a {
+    a.button {
       display: inline-block;
-      margin: 10px;
-      padding: 15px 25px;
-      border-radius: 8px;
+      margin: 15px;
+      padding: 15px 30px;
+      background: #5865F2;
+      color: white;
       text-decoration: none;
       font-weight: bold;
-      color: white;
-      background: #5865F2;
-      transition: 0.2s;
+      border-radius: 8px;
     }
-    .buttons a:hover {
-      transform: scale(1.05);
+    a.button:hover {
       background: #4752c4;
-    }
-    section {
-      background: #2c2f33;
-      margin: 40px auto;
-      padding: 30px;
-      max-width: 800px;
-      border-radius: 12px;
-    }
-    footer {
-      margin: 40px 0 20px;
-      opacity: 0.7;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>🤖 Carl-bot</h1>
-    <p>Sunucunuzu daha eğlenceli ve güçlü yapan Discord botu!</p>
+  <h1>🤖 Discord Bot</h1>
+  <p>Site başarıyla çalışıyor 🎉</p>
 
-    <div class="buttons">
-      <a href="https://discord.com/oauth2/authorize?client_id=1467621876221214782&permissions=8&integration_type=0&scope=bot" target="_blank">➕ Sunucuya Ekle</a>
-      <a href="DESTEK_LINK" target="_blank">💬 Destek Sunucusu</a>
-    </div>
-  </header>
+  <a class="button" href="#" target="_blank">➕ Sunucuya Ekle</a>
+  <a class="button" href="#" target="_blank">💬 Destek Sunucusu</a>
 
-  <section>
+  <section style="margin-top:40px;">
     <h2>✨ Özellikler</h2>
-    <p>✅ Moderasyon komutları</p>
-    <p>✅ Eğlence komutları</p>
-    <p>✅ Otomatik sistemler</p>
-    <p>✅ Kolay kullanım</p>
+    <ul style="list-style:none; padding:0; font-size:18px;">
+      <li>✔️ Moderasyon Komutları</li>
+      <li>✔️ Eğlence Komutları</li>
+      <li>✔️ Kolay Kullanım</li>
+      <li>✔️ Sürekli Güncellenir</li>
+    </ul>
   </section>
-
-  <section>
-    <h2>📜 Örnek Komutlar</h2>
-    <p><b>!yardım</b> - Komut listesini gösterir</p>
-    <p><b>!ping</b> - Botun gecikmesini gösterir</p>
-    <p><b>!ban</b> - Kullanıcıyı banlar</p>
-    <p><b>!sunucu</b> - Sunucu bilgisi</p>
-  </section>
-
-  <footer>
-    <p>© 2026 Carl-bot — Tüm hakları saklıdır.</p>
-  </footer>
 
 </body>
 </html>
-
